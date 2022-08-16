@@ -1,25 +1,34 @@
-
+body {
+  background-image: linear-gradient(to right,#0011fa 0,#16e3fe 100%);
+}
 
 #iko  {
-  display: inline-flex;
+ display: inline-flex;
   width: 40px;
   height: 40px;
   border-radius: 40px;
   border: 3px solid black;
-  
+ 
 }
 
 button {
   
- margin: 5px;
- padding: 10px;
+  margin: 5px;
+  padding: 10px 10px;
   display:inline-flex;
   border-radius: 50px;
  border: none;
  background-image: linear-gradient(to right,#0011fa 0,#16e3fe 100%);
 }
 button :hover{
-  width: 60px;
-  height: 60px;
-  border-radius: 60px;
+  width: 50px;
+  height: 50px;
+
+}
+.il {
+  width: 700px;
+  display: flex;
+  border-radius: 30px;
+  margin: 5px;
+  padding: 10px 10px;
 }
