@@ -1,6 +1,6 @@
-from curses import window
-import tkinter as tk 
-window = tk.Tk()
-window.configure(bg="whitr")
-window.geometry()
-window.mainloop()
+from cgi import print_arguments
+
+
+print ("halo RIYAD")
+print("halo dunia")
+print_arguments (halo riyad)
